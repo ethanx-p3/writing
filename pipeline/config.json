@@ -1,0 +1,106 @@
+{
+  "system": "Writing Pipeline — Manufacturing × AI × Product Development",
+  "version": "1.0.0",
+  "author": "exiang",
+  "working_dir": "/Users/exiang/Writings",
+
+  "focus_areas": [
+    "ERP systems and digital transformation in manufacturing",
+    "MES (Manufacturing Execution Systems)",
+    "Factory automation and robotics",
+    "AI/ML applications in supply chain and operations",
+    "Industrial IoT and smart factory",
+    "Product lifecycle management (PLM)",
+    "Lean/Six Sigma meets AI",
+    "Founders and operators building in the industrial space",
+    "Warehouse automation",
+    "Predictive maintenance and condition monitoring",
+    "Digital twins in manufacturing",
+    "Procurement and sourcing technology"
+  ],
+
+  "target_audience": "Operators, founders, investors, and engineers working at the intersection of manufacturing and software. Readers who want real depth — not hot takes.",
+
+  "article_format": {
+    "min_word_count": 2500,
+    "max_word_count": 6000,
+    "target_word_count": 4000,
+    "tone": "authoritative, analytical, practitioner-friendly — like a McKinsey analyst who actually worked on a factory floor",
+    "style_notes": [
+      "Lead with a sharp, specific hook — not a generic statement about the industry",
+      "Use data and concrete examples throughout",
+      "Include at least one original analysis or model",
+      "Structure with clear H2/H3 headers for scannability",
+      "End with specific, actionable takeaways or a forward-looking framework",
+      "Avoid buzzwords: 'revolutionary', 'game-changing', 'paradigm shift'",
+      "Prefer primary sources, industry reports, SEC filings, and expert interviews over media coverage"
+    ]
+  },
+
+  "research": {
+    "min_sources": 8,
+    "preferred_source_types": [
+      "Industry analyst reports (Gartner, IDC, AMR Research, LNS Research)",
+      "Academic papers",
+      "SEC filings and earnings calls",
+      "Trade publications (Manufacturing.net, IndustryWeek, Automation World)",
+      "Expert interviews and practitioner case studies",
+      "Company documentation and technical whitepapers"
+    ],
+    "research_depth": "deep — look for counterintuitive findings, data that challenges conventional wisdom"
+  },
+
+  "data_analysis": {
+    "tools": ["Python (pandas, matplotlib, seaborn)", "Observable notebooks"],
+    "output_formats": ["CSV", "PNG charts", "Markdown summary tables"],
+    "analysis_types": [
+      "Market sizing and growth trends",
+      "Competitive landscape mapping",
+      "ROI and payback period models",
+      "Adoption curve analysis",
+      "Technology stack comparisons"
+    ]
+  },
+
+  "publishing": {
+    "primary_platform": "Substack",
+    "secondary_platforms": ["LinkedIn", "Medium"],
+    "image_per_article": 3,
+    "include_data_charts": true
+  },
+
+  "marketing": {
+    "channels": ["LinkedIn", "Twitter/X", "Substack notes", "Relevant Slack/Discord communities"],
+    "linkedin_post_style": "Hook + 3-5 key insights + CTA to full article. No fluff.",
+    "twitter_thread_length": 8
+  },
+
+  "pipeline_stages": [
+    "idea",
+    "research",
+    "outline_review",
+    "outline_approved",
+    "data",
+    "writing",
+    "draft_review",
+    "draft_approved",
+    "editing",
+    "final_review",
+    "final_approved",
+    "publishing",
+    "marketing",
+    "published"
+  ],
+
+  "human_review_stages": [
+    "outline_review",
+    "draft_review",
+    "final_review"
+  ],
+
+  "git": {
+    "auto_commit": true,
+    "auto_push": true,
+    "commit_message_prefix": "[pipeline]"
+  }
+}

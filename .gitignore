@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Spotlight-V100
+._*
+
+# Data files that are too large for git
+data/datasets/*.parquet
+data/datasets/*.pickle
+
+# Credentials / API keys
+.env.local
+secrets.json
