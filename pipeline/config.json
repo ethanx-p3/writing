@@ -21,19 +21,43 @@
 
   "target_audience": "Operators, founders, investors, and engineers working at the intersection of manufacturing and software. Readers who want real depth — not hot takes.",
 
+  "author_background": {
+    "current_role": "Software product management and UX design at Blue Origin (aerospace manufacturing)",
+    "education": "MBA, University of Michigan Ross School of Business",
+    "prior_writing": "Memorable Memos (memo2.substack.com) — business writing for technology leaders",
+    "perspective": "Practitioner with deep experience in complex product development, systems thinking, and operational rigor in high-stakes manufacturing environments"
+  },
+
   "article_format": {
     "min_word_count": 2500,
-    "max_word_count": 6000,
-    "target_word_count": 4000,
-    "tone": "authoritative, analytical, practitioner-friendly — like a McKinsey analyst who actually worked on a factory floor",
+    "max_word_count": 5000,
+    "target_word_count": 3500,
+    "tone": "Practitioner-to-practitioner — a senior operator sharing hard-won lessons, not a consultant summarizing a report. Direct, structured, data-grounded. The reader should feel like they're getting a briefing from a smart peer, not reading a whitepaper.",
+    "voice_characteristics": [
+      "Conclusions first: state the principle or finding before the evidence. Never bury the lede.",
+      "Short declarative sentences as the default. Reserve longer sentences for genuinely complex ideas.",
+      "Name the pattern or framework. Give things explicit labels — 'the pull problem', 'Day 1 vs Day 2 thinking', 'the architecture ceiling'.",
+      "Quantify everything that can be quantified. Never 'significant' when you can say '34%'. Never 'many companies' when you can name three.",
+      "Concrete examples anchored in specific companies, decisions, or outcomes — not hypotheticals.",
+      "Bold key principles inline, not just in headers. Readers scan; make the most important sentences impossible to miss.",
+      "Practitioner vocabulary used correctly and without over-explanation. Don't define OEE for this audience.",
+      "No throat-clearing. The first sentence of every section should be doing real work."
+    ],
     "style_notes": [
-      "Lead with a sharp, specific hook — not a generic statement about the industry",
-      "Use data and concrete examples throughout",
-      "Include at least one original analysis or model",
-      "Structure with clear H2/H3 headers for scannability",
-      "End with specific, actionable takeaways or a forward-looking framework",
-      "Avoid buzzwords: 'revolutionary', 'game-changing', 'paradigm shift'",
-      "Prefer primary sources, industry reports, SEC filings, and expert interviews over media coverage"
+      "Lead with a specific hook — a data point, a named company decision, a sharp contrarian claim. Never 'In recent years...' or 'The manufacturing industry is...'",
+      "Use data throughout. Every major claim needs a number attached to it.",
+      "Include at least one original framework, model, or analysis that can't be found elsewhere",
+      "H2 headers as argument sentences, not topic labels. 'MES Vendors Are Selling AI Features That Don't Exist Yet' not 'AI in MES'",
+      "End with specific, actionable takeaways — what should the reader do or think differently?",
+      "Avoid: 'revolutionary', 'game-changing', 'paradigm shift', 'cutting-edge', 'In today's world', 'It is worth noting', 'leverage' (as a verb), 'utilize'",
+      "Prefer primary sources: SEC filings, earnings calls, analyst reports, vendor documentation, practitioner accounts"
+    ],
+    "structural_preferences": [
+      "Principle stated first, evidence after — within paragraphs and within sections",
+      "Push vs. pull framing works well for this audience (push information, don't make them ask)",
+      "Framework articles with named models resonate — give readers a mental model they can reuse",
+      "Decision-oriented endings: what should the reader decide or do based on this?",
+      "Short paragraphs. If a paragraph exceeds 5 sentences, it should probably be two paragraphs."
     ]
   },
 

@@ -33,7 +33,17 @@ Based on the content and thesis, select the most appropriate structure:
 - **Historical narrative + present implications**: Trace how we got here and what it means.
 - **Problem → Solution → Implications**: Classic structure for emerging technology pieces.
 
-**4. Plan the data and visuals**
+**4. Write H2 headers as argument sentences, not topic labels**
+
+The author's prior work shows he is highly structural and direct. Apply this to section headers:
+- Bad: "AI Features in MES" (a topic label)
+- Good: "Most MES Vendors Are Shipping Analytics, Not AI — And Buyers Are Starting to Notice" (an argument)
+
+Each H2 should be a claim that a reader could agree or disagree with. If a header is just a noun phrase, rewrite it.
+
+Also: plan for explicit framework naming. The author consistently creates named mental models. The outline should designate what the article's central framework will be called — something the reader can take away and reuse. Example: "the four-layer integration problem," "the buy-vs-build decision matrix for MES AI."
+
+**5. Plan the data and visuals**
 - For each section that uses data, specify which chart or table to use
 - Identify which analyses the Data Agent should produce
 - Be specific: "A bar chart showing OEE improvement by automation tier for discrete manufacturers, using LNS Research data"

@@ -93,6 +93,26 @@ Write to `articles/_drafts/<slug>_edited.md`
 
 ---
 
+## Author Voice Consistency Check
+
+Before finishing the edit, run through this checklist specific to the author's established voice (derived from his Memorable Memos publication):
+
+**Conclusions-first check:** Read the first sentence of each paragraph. Does it state a conclusion, finding, or principle? If it sets up context before getting to the point, rewrite it conclusion-first.
+
+**Sentence length check:** Find every sentence over 30 words. Is it earning its length? If not, cut it or break it.
+
+**Quantification check:** Find every instance of: "many," "significant," "large," "some," "several," "often," "frequently," "most." Replace each with a specific number, percentage, or named example — or cut it.
+
+**Framework naming check:** Does the article name its central concept explicitly? ("the architecture ceiling," "the integration trap," "the operator burden problem.") If not, add a name. The author consistently labels his frameworks.
+
+**Bold deployment check:** Are the 3-5 most important sentences in the article bolded inline? Not section headers — key claim sentences within paragraphs.
+
+**Throat-clearing check:** Find any sentence that begins with: "In this section," "It is important to note," "It should be mentioned," "As we can see," "Before we dive in," "In conclusion." Delete every one.
+
+**Example specificity check:** Find every "some companies," "many manufacturers," "certain vendors." Replace with named examples or remove the claim.
+
+---
+
 ## What Editors Do Not Do
 
 - **Don't change facts.** If a claim is wrong, flag it — don't silently rewrite it.
