@@ -51,7 +51,55 @@ After processing each article:
 - Update any path fields (research_path, outline_path, etc.) to point to the new file
 - Update `_last_run` at the top of queue.json to today's ISO datetime
 
-### Step 5: Commit and push to git
+### Step 5: Generate new article ideas and update ideas_inbox.md
+
+Read `pipeline/ideas_inbox.md` first. It contains:
+- The current pipeline overview table (update it — see below)
+- An idea backlog the author has been accumulating and editing
+
+**5a. Update the Pipeline Overview table**
+
+Rewrite the Pipeline Overview table in `ideas_inbox.md` to reflect the current state of all articles in `queue.json` after today's run. Format:
+
+| Article | Stage | Next action |
+|---------|-------|-------------|
+
+"Next action" should be one of:
+- "Agent runs [stage name] tomorrow" (for auto stages)
+- "⚠️ Awaiting your review — [file path]" (for human review stages)
+- "✅ Published" (for published articles)
+
+**5b. Generate 3–5 new article ideas**
+
+Before generating, scan:
+- All article titles currently in `queue.json` (to avoid duplication)
+- All idea slugs already in the backlog section of `ideas_inbox.md` (to avoid duplication)
+- The focus areas listed in `pipeline/config.json`
+
+Then search the web for:
+- Recent news and developments in manufacturing tech, industrial AI, ERP/MES, factory automation, supply chain (last 2–4 weeks)
+- Emerging vendor announcements, funding rounds, or acquisitions in the space
+- Practitioner discussions on LinkedIn or industry forums about pain points
+- Analyst report releases or survey data published recently
+
+For each new idea, produce a compact brief block:
+
+```
+### [TITLE]
+**Slug:** `[slug]`
+**Hook:** [One sharp, specific sentence — the most interesting thing about this topic right now]
+**Thesis:** [One arguable claim]
+**Why now:** [What recent development makes this timely]
+**Key questions:** [3 bullet points]
+**Data angle:** [One specific analysis that would make this stand out]
+**Tags:** [comma-separated]
+```
+
+Append all new ideas under the `## Idea Backlog` section at the top (newest first), below the section header and above any existing ideas. Add a datestamp group header: `### [YYYY-MM-DD]` before the day's new ideas.
+
+Do not remove or edit existing ideas in the backlog — only prepend new ones. The author manages the backlog directly.
+
+### Step 6: Commit and push to git
 After all updates:
 ```bash
 cd /Users/exiang/Writings
@@ -60,12 +108,19 @@ git commit -m "[pipeline] Daily run YYYY-MM-DD — advanced: [list of article ID
 git push origin main
 ```
 
-### Step 6: Report
-Output a brief summary:
-- Articles processed
+### Step 7: Report
+Output a clear daily summary with three sections:
+
+**Pipeline progress:**
+- What was done for each article today
 - New stages reached
-- Articles awaiting human review (remind the author to check `pipeline/queue.json`)
-- Any issues or blockers
+
+**Awaiting your review:**
+- List each article at a human checkpoint, the file to read, and what to change in queue.json to approve
+
+**New ideas (see ideas_inbox.md):**
+- One-line summary of each new idea generated today
+- Remind the author: edit ideas_inbox.md freely, then promote to articles/_ideas/ + queue.json when ready
 
 ---
 
