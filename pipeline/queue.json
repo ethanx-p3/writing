@@ -1,22 +1,22 @@
 {
   "_comment": "Article pipeline queue. Each article advances through stages defined in config.json. Human review stages (outline_review, draft_review, final_review) require manual stage advancement. To advance: change stage from *_review to *_approved and save.",
-  "_last_run": null,
+  "_last_run": "2026-05-10T00:00:00",
   "_next_scheduled_run": "2026-04-13T08:00:00",
   "articles": [
     {
       "id": "vibe-coding-manufacturing-governance",
       "title": "Where Vibe Coding Breaks Down: A Governance Framework for Software in Manufacturing",
-      "stage": "idea",
+      "stage": "research",
       "priority": 1,
       "created": "2026-04-12",
-      "last_updated": "2026-04-12",
+      "last_updated": "2026-05-10",
       "brief_path": "articles/_ideas/vibe-coding-manufacturing-governance.md",
-      "research_path": null,
+      "research_path": "articles/_research/vibe-coding-manufacturing-governance/research.md",
       "outline_path": null,
       "draft_path": null,
       "final_path": null,
       "published_path": null,
-      "notes": "Framework article — maps ISA-95 hierarchy to governance posture for citizen development / vibe coding in manufacturing",
+      "notes": "Research complete 2026-05-10. 12 sources, key stats on governance gap (73%), AI code flaws (45%), shadow IT (42%), OT ransomware (+46%). Ready for outline.",
       "tags": ["software governance", "vibe coding", "ISA-95", "citizen development", "manufacturing IT", "safety"],
       "estimated_publish_date": null
     },
